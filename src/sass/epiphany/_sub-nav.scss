@@ -1,0 +1,46 @@
+.sub-nav{
+	top: 60px;
+	left: 0;
+	right: 0;
+	height: 90px;
+	margin: 0;
+	background: $orange;
+	z-index: 100;
+	&.small{height:70px;}
+	&.inner{top:140px;}
+	&.low{top:170px;}
+	> div{
+		position: relative;
+		height: 100%;
+	}
+	h1{
+		position: relative;
+		display: inline-block;
+		float: left;
+		top: 50%;
+		margin-right: 40px;
+		transform: translateY(-50%);
+	}
+	ul.nav{
+		position: relative;
+		display: inline-block;
+		top: 50%;
+		transform: translateY(-50%);
+		&.large{width:100%;}
+		> li{
+			.glyphicon{margin-left:5px; font-size:11px;}
+			&.active > a, &:active > a, &:hover > a{background:$orange-dark;}
+			> a{
+				font-size: 14px;
+				font-weight: 600;
+				color: #ffffff;
+			}
+			&.right{float:right;}
+		}
+		&.green{
+			li{
+				&.active > a, &:active > a, &:hover > a{background:$green-dark;}
+			}
+		}
+	}
+}

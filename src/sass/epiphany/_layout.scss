@@ -1,0 +1,12 @@
+.row.content{
+	opacity: 0;
+	transition: all 0.2s;
+	> div{
+		padding:30px;
+	}
+}
+
+.lhs > div{
+	padding-left: 30px;
+	box-sizing: border-box;
+}

@@ -1,0 +1,29 @@
+.generic-alert{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	max-width: 480px;
+	padding: 30px;
+	color: #ffffff;
+	background: $grey-dark;
+	transition: all 0.2s;
+	&.out{right:-480px;}
+	.alert-text{
+		display: block;
+		max-width: 370px;
+		p{margin-bottom:5px;}
+		small{color:$grey-light;}
+	}
+	.glyphicon-plus{
+		position: absolute;
+		top: 50%;
+		right: 30px;
+		transform: translateY(-50%) rotate(45deg);
+		color: $grey;
+		font-size: 25px;
+		cursor: pointer;
+		transition: all 0.2s;
+		&:hover{color:$grey-light;}
+	}
+}

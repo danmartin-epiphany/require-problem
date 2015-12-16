@@ -1,0 +1,57 @@
+{
+  "name": "Ui",
+  "version": "0.7.0",
+  "description": "none",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/epiphanydevelopers/internal-ui.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Epiphany Solutions",
+    "url": "http://www.epiphanysolutions.com/"
+  },
+  "contributors": [
+    {
+      "name": "Craig Jackson",
+      "email": "craig.jackson@epiphanysolutions.co.uk"
+    }
+  ],
+  "client": {
+    "name": "Internal",
+    "string": "internal"
+  },
+  "project": {
+    "name": "Ui",
+    "title": "Ui",
+    "string": "ui"
+  },
+  "license": "",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "matchdep": "*",
+    "express": "~3.4.0",
+    "grunt-express-server": "~0.4.3",
+    "grunt-open": "~0.2.2",
+    "connect-livereload": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-autoprefixer": "~0.3.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-processhtml": "~0.2.3",
+    "jpegtran-bin": "0.2.0",
+    "grunt-contrib-imagemin": "~0.3.0",
+    "grunt-ssh": "~0.7.0",
+    "grunt-bump": "0.0.11",
+    "grunt-curl": "git://github.com/chris5marsh/grunt-curl.git",
+    "grunt-prompt": "~0.1.2",
+    "load-grunt-configs": "~0.4.3",
+    "findup-sync": "0.2.1"
+  }
+}

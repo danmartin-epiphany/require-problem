@@ -1,0 +1,25 @@
+
+/* Utils */
+/************************************************************************************/
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+.no-widows {
+    white-space: nowrap;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.clear {
+    clear: both;
+}

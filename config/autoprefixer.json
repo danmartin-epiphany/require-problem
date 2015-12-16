@@ -1,0 +1,8 @@
+{
+  "multiple_files": {
+    "expand": true,
+    "cwd": "src/css/unprefixed",
+    "src": "*.css",
+    "dest": "src/css/"
+  }
+}

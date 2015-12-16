@@ -1,0 +1,19 @@
+{
+  "compile": {
+    "options": {
+      "baseUrl": "dist/js/",
+      "mainConfigFile": "dist/js/app.js",
+      "out": "dist/js/app.js",
+      "name": "app",
+      "paths": {
+        "jquery": "vendor/jquery.min"
+      },
+      "wrap": {
+        "start": "<%= banner.compact %>",
+        "end": ""
+      },
+      "wrapShim": true,
+      "findNestedDependencies": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.lhs-task-navigation{
+	li{		
+		margin-bottom: 20px;
+		border-left: 4px solid #f0efed;
+		transition: all 0.2s;
+		&:last-child{margin-bottom:0;}
+		a{
+			display: inline-block;
+			padding: 10px 0 10px 30px;
+			font-family: $campton-light;
+			font-size: 36px;
+			line-height: 38px;
+			color: $grey;
+		}
+		&.active, &:hover{
+			border-color: $orange;
+			a{color:#000000; text-decoration:none;}
+		}
+	}
+}

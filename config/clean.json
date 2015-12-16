@@ -1,0 +1,17 @@
+{
+  "setup": [
+    "log",
+    ".git"
+  ],
+  "predist": [
+    "dist"
+  ],
+  "dist": [
+    "dist/config.rb",
+    "dist/sass",
+    "dist/css/unprefixed",
+    "dist/css/!*.min.css",
+    "dist/js/app",
+    "dist/inc"
+  ]
+}

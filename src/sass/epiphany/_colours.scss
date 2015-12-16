@@ -1,0 +1,45 @@
+.darkgrey{color:$grey-dark;}
+.darkgrey-bg{background-color:$grey-dark;}
+/* .midgrey{color:$grey-mid;}
+.midgrey-bg{background-color:$grey-mid;} */
+.grey{color:$grey;}
+.grey-bg{background-color:$grey;}
+.lightgrey{color:$grey-light;}
+.lightgrey-bg{background-color:$grey-light;}
+.orange{color:$orange;}
+.orange-bg{background-color:$orange;}
+.darkorange{color:$orange-dark;}
+.darkorange-bg{background-color:$orange-dark;}
+.turq-{color:$turq;}
+.turq-bg{background-color:$turq;}
+.yellow{color:$yellow;}
+.yellow-bg{background-color:$yellow;}
+.pink{color:$pink;}
+.pink-bg{background-color:$pink;}
+.green{color:$green;}
+.green-bg{background-color:$green;}
+.darkgreen{color:$green-dark;}
+.darkgreen-bg{background-color:$green-dark;}
+.red{color:$red;}
+.red-bg{background-color:$red;}
+.darkred{color:$red-dark;}
+.darkred-bg{background-color:$red-dark;}
+
+.white{color:#ffffff;}
+.white-bg{background-color:#ffffff;}
+
+
+.btn{
+	&.green{
+		color: #ffffff;
+		background: $green;
+        border: 0;
+		&:hover{background:$green-dark;}
+	}
+    &.orange{
+        color: #ffffff;
+        background: $orange;
+        border: 0;
+        &:hover{background:$orange-dark;}
+    }
+}

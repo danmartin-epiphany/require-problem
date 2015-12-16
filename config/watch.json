@@ -1,0 +1,45 @@
+{
+  "compass": {
+    "files": [
+      "src/sass/**/*.{scss,sass}"
+    ],
+    "tasks": [
+      "compass:dev"
+    ]
+  },
+  "autoprefix": {
+    "files": [
+      "src/css/unprefixed/*.css"
+    ],
+    "tasks": [
+      "autoprefixer"
+    ],
+    "options": {
+      "livereload": true
+    }
+  },
+  "css": {
+    "files": [
+      "src/css/*.css"
+    ],
+    "options": {
+      "livereload": false
+    }
+  },
+  "js": {
+    "files": [
+      "src/js/**/*.js"
+    ],
+    "options": {
+      "livereload": true
+    }
+  },
+  "html": {
+    "files": [
+      "src/**/*.html"
+    ],
+    "options": {
+      "livereload": true
+    }
+  }
+}

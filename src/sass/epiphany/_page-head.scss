@@ -1,0 +1,61 @@
+.page-head{
+	top: 60px;
+	height: 80px;
+	width: 100%;
+	background: #ffffff;
+	z-index: 101;
+	.dropdown-menu{margin-top:-15px;}
+	&.large{
+		height:110px;
+		.dropdown-menu{margin-top:-30px;}
+	}
+	> div{
+		position: relative;
+		height: 100%;
+		> div{
+			height:100%;
+			&:first-child{padding-left:80px;}
+		}
+	}
+	h1{color:#000000;}
+	.details{font-size:14px; color:$grey;}
+	.back-nav-btn{
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 100%;
+		max-width: 60px;
+		height: 100%;
+		color: #ffffff;
+		text-align: center;
+		background: $orange-dark;
+		z-index: 2;
+		.glyphicon{
+			position: absolute;
+			display: block;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		&:hover{
+			background: $orange;
+			.glyphicon{color:$orange-dark;}
+		}
+	}
+	.cancel-link, .btn{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.cancel-link{
+		color: $orange;
+		font-size: 14px;
+		text-decoration: underline;
+		&:hover{color:$orange-dark;}
+	}
+	.btn{
+		
+	}
+}

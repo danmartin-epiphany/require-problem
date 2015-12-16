@@ -1,0 +1,22 @@
+{
+  "stratus": {
+    "files": [
+      {
+        "expand": true,
+        "cwd": "src/",
+        "src": "*.html",
+        "dest": "dist/"
+      }
+    ]
+  },
+  "dist": {
+    "files": [
+      {
+        "expand": true,
+        "cwd": "src/",
+        "src": "*.html",
+        "dest": "dist/"
+      }
+    ]
+  }
+}

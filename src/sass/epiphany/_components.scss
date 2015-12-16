@@ -1,0 +1,77 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+	font-weight: 600;
+	color:#000000;
+	.sub-nav &{color:#ffffff;}
+}
+h1, .h1{
+	font-size:28px;
+	.content &{margin-bottom:30px;}
+}
+h2, .h2{font-size:26px;}
+h1, .h1, h2, .h2{
+	font-family:$campton-bold; 
+	text-transform:lowercase;
+}
+h3, .h3{font-size:24px;}
+h4, .h4{font-size:22px;}
+h5, .h5{font-size:20px;}
+h6, .h6{font-size:20px;}
+h4.for-table{padding-left:30px;}
+
+
+ul.default > li{margin-bottom:15px;}
+ul.horizontal > li{
+	display: inline-block;
+	margin: 0 20px 0 0;
+	vertical-align: middle;
+	&:last-child{margin-right:0;}
+}
+
+
+table{
+	&.subtle-th{
+		tr:first-child{background-color:transparent;}
+		tr:nth-child(2){
+			td{border-width:2px;}
+	}
+		> tbody > tr > th{
+			color: $grey-light;
+			font-size: 12px;
+			border: 0;
+		}
+	}
+	.glyphicon{color:$grey-light;}
+}
+
+
+small{
+	display: block;
+	font-family: $opensans;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 600;
+	color: $grey;
+}
+
+.num-icon{
+	padding: 2px 7px;
+	font-family: $campton-light;
+	color: $orange;
+	font-size: 14px;
+	line-height:14px;
+	background: #ffffff;
+	border-radius: 20px;
+}
+
+.btn{
+	&.colour{border:0;}
+}
+
+.glyphicon-user{
+	margin-left: 5px;
+	font-size: 11px;
+	> span{
+		font-family: $campton-bold;
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "bowerlibs": {
+    "files": [
+      {
+        "src": "src/js/vendor/modernizr.js",
+        "dest": "src/js/vendor/modernizr.js"
+      },
+      {
+        "src": "src/js/vendor/require.js",
+        "dest": "src/js/vendor/require.js"
+      }
+    ]
+  }
+}

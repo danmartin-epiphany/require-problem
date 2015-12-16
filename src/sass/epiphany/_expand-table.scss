@@ -1,0 +1,75 @@
+table.table.expand{
+	> tbody > tr > td, 
+	> tbody > tr > th, 
+	> tfoot > tr > td, 
+	> tfoot > tr > th, 
+	> thead > tr > td, 
+	> thead > tr > th{border-top:0;}
+	tr{
+		> th{
+			padding-bottom:30px;
+			&:first-child{padding-left:30px;}
+		}
+		box-sizing: border-box;
+		&:nth-child(4n+4), &:nth-child(4n+5){background:#f9f9f9;}
+		&:nth-child(4n+5), &:nth-child(4n+3){border-bottom:1px solid #f0efed;}
+		> td{
+			vertical-align: middle;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			box-sizing: border-box;
+			transition: all 0.2s;
+			&:first-child{width:72%; padding-left:30px; font-size:21px;}
+			&:nth-child(2){width:15%; font-weight:600; font-size:14px; color:$grey-light;}
+			&:last-child{padding-right:30px; text-align:right;}
+			.glyphicon-plus{
+				transform: rotate(45deg);
+				transition: all 0.2s;
+				&.collapsed{transform:rotate(0deg);}
+			}
+			&[colspan='3']{
+				padding: 0;
+				font-size: 14px;
+				.collapse.in, .collapsing{padding:20px;}
+				p{width:90%; padding-left:30px;}
+				table{
+					width: 90%;
+					tr:nth-child(4n+5), tr:nth-child(4n+3){border-bottom:0;}
+					td{
+						width: 33%;
+						padding-bottom: 10px;
+						font-size: 14px;
+						color: $grey;
+						font-weight: 600;
+						small{
+							display:block;
+							font-size: 12px;
+							color: $grey-light;
+						}
+					}
+				}
+			}
+		}
+		// Rejected rows
+		&.rejected{
+			color: #ffffff;
+			background-color: $red;
+			> td{
+				&:nth-child(2){color:#ffffff;}
+				.rejected-text{
+					float: left;
+					font-size: 14px;
+					text-transform: uppercase;
+					color: lighten($red, 10%);
+					text-align: left;
+				}
+				.glyphicon-plus{color:lighten($red, 10%);}
+				&[colspan='3'] table{
+					width: 90%;
+					tr:nth-child(4n+5), tr:nth-child(4n+3){border-bottom:0;}
+					td{color: #ffffff;}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+::selection {background: #000000; color: #ffffff;}
+::-moz-selection {background: #000000; color: #ffffff;}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body {
+    font: normal 100%/1.4 $opensans;
+    background-color: #fff;
+    color: $base-text;
+    font-weight: 400;
+    transition: padding-top 0.2s;
+}
+
+a, .glyphicon {
+	transition: all 0.2s;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+address {
+	margin-bottom: 1em;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+}
+.fixed{position:fixed;}
